@@ -1,0 +1,19 @@
+<table class = "table table-hover"> 
+    <thead class="thead-dark"> 
+        <tr>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Email</td>
+            <td>Matricule</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let tempStudent of studentList">
+            <td>{{tempStudent.firstName}}</td>
+            <td>{{tempStudent.lastName}}</td>
+            <td>{{tempStudent.email}}</td>
+            <td>{{tempStudent.matricule}}</td>
+        </tr>
+
+    </tbody>
+</table>
