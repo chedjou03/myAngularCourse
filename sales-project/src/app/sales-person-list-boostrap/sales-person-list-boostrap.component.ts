@@ -9,11 +9,11 @@ import { Student } from './student';
 export class SalesPersonListBoostrapComponent implements OnInit {
 
   studentList : Student[] = [
-    new Student ("Jeffrey","Besos","jeffrey@yahoo.com",10),
-    new Student ("Sam","Walton","samwaltom@yahoo.com",1045),
-    new Student ("Barrack","Obama","barrackobama@yahoo.com",10456),
-    new Student ("Donal","Trum","donaltrump@yahoo.com",10345),
-    new Student ("Steve","Cornackys","stevecorka@yahoo.com",109770)
+    new Student ("Jeffrey","Besos","jeffrey@yahoo.com",10000),
+    new Student ("Sam","Walton","samwaltom@yahoo.com",20000),
+    new Student ("Barrack","Obama","barrackobama@yahoo.com",30000),
+    new Student ("Donal","Trum","donaltrump@yahoo.com",40000),
+    new Student ("Steve","Cornackys","stevecorka@yahoo.com",50000)
   ];
   constructor() { }
 

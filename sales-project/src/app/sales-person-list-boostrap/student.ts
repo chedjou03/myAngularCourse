@@ -3,6 +3,6 @@ export class Student {
         public firstName:String,
         public lastName:String,
         public email:String,
-        public matricule:number){
+        public saleVolume:number){
     }
 }
